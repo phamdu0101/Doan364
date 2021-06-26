@@ -1,0 +1,199 @@
+
+/* Header */
+header{
+    background:url(../imges/bgn7.jpg);
+    background-size: cover;
+   
+}
+header .navbar{
+    padding-top: 20px;
+}
+#logo img{
+    margin-left: 85px;
+}
+header .navbar-light .navbar-nav{
+    margin-right: 50px;
+}
+header .navbar-light .navbar-nav .nav-link{
+    width: 120px;
+    line-height: 20px;
+    color: #fff;
+}
+header .navbar-light .navbar-nav .nav-item a:hover{
+    color:#c69c6d ;
+}
+header .navbar-light .navbar-nav .nav-item a{
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.navbar-nav:hover #drop1{
+    display: block;
+    background-color:  rgba(30, 30, 30, 0.97);
+    color: black;
+}
+/* .navbar-nav:hover #drop2{
+    display: block;
+    background-color:  rgba(30, 30, 30, 0.97);
+} */
+.navbar-nav:hover #drop1 .dropdown-item{
+    color: rgb(224, 13, 13);
+}
+/* .navbar-nav:hover #drop2 .dropdown-item{
+    color: #fff;
+} */
+/* Header nội dung */
+header .Noidung-cent{
+    color: #fff;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+   
+}
+header .Noidung-cent h1{
+    font-weight:900;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+header .Noidung-cent span{
+     color: #c69c6d;
+}
+header .Noidung-cent p{
+    margin-bottom: 50px;
+}
+header .Noidung-cent a{
+    border: 2px solid  #c69c6d;
+    border-radius: 500px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+}
+header .Noidung-cent a:hover{
+    background:#c69c6d ;
+}
+/* Khung  */
+.khung .row .col-3 .item{
+    background:  #111;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+.khung .row .col-3 .item .ai{
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#i2{
+    font-size: 2.5rem;
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+.khung .row .col-3 .item p{
+    margin: 20px 20px;
+    margin-bottom: 20px;
+}
+/* Banner */
+.Banner{
+    background: url(../imges/bg1.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.Banner .b1 span{
+    color:#c69c6d ;
+}
+.Banner .b1 h2{
+    font-weight: bold;
+}
+.Banner .b1 hr{
+    width: 60px;
+    margin: 0 auto;
+    color: #c69c6d;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+#nav-all{
+    color: #c69c6d;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #606060;
+    font-weight: 400;
+    
+}
+.Banner .b2 .row .col-8 .row .col-2{
+    background-size: 100px;
+}
+.Banner .b2 .row .col-md-8{
+    margin-left: 140px;
+}
+
+.Banner .b3 .row {
+    padding: 10px 80px;
+}
+.Banner .b3 .row .col-3 .pc-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+}
+.Banner .b3 .row .col-3 .pc-img:hover{
+    transform: scale(1.1);
+}
+.container .b3{
+    margin-top: 20px;
+}
+.container .b3 .row p{
+    padding-top: 20px;
+}
+.container .b3 span{
+    color: #c69c6d;
+}
+    
+
+/* fOOTER */
+
+.fter .like-out {
+    background:url(../imges/bg3.jpg ) ;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+.fter .like-out h5{
+    color: rgb(12, 11, 11);
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.fter .like-out a{   
+    border: 1px solid #7aa93c;
+    background: #7aa93c;
+    border-radius: 500px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+}
+.fter .f2{
+    background:#212124;
+}
+.fter .container .row .col-2{
+    margin-right: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+.fter .container .row .col-2 p{
+   margin-top: 20px;
+}
+.fter .c-fter{
+    height: 70px;
+    background: #272729;
+    color: #fff;
+    padding: 20px 0;
+    padding-left: 220px;
+}
